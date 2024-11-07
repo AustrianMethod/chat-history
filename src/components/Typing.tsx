@@ -9,7 +9,7 @@ export function Typing({message, from, time}: PropsMessage) {
           <i className="fa fa-circle me"></i>
         </div>
         <div className="message other-message float-right">
-          {message}
+          {'...'}
         </div>
       </li>
     )
